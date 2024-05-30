@@ -1,0 +1,34 @@
+{
+  "name": "@dmqcli/moban-cli",
+  "version": "1.0.6",
+  "description": "快速创建项目模板，模板丰富多样",
+  "main": "index.js",
+  "keywords": [
+    "moban",
+    "dmqcli",
+    "create",
+    "项目模板"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "moban": "./bin/cli.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.3",
+    "download-git-repo": "^1.1.0",
+    "figlet": "^1.5.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^6.5.2",
+    "ora": "^3.2.0"
+  },
+  "author": "dmq",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
